@@ -1,0 +1,54 @@
+.banner{
+    color: aliceblue;
+    object-fit: contain;
+    height: 360px;
+
+}
+
+.banner_contents{
+    margin-left: 15px;
+    padding-top:120px;
+    height: 200px;
+}
+
+.banner_title{
+    width: 20rem;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.banner_description{
+    font-weight: 80 ;
+    width: 20rem;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.banner_button{
+    cursor: pointer;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px 50px 0px 0px;
+    padding: 5px 5px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+.banner_button:hover{
+color: black;
+background-color: rgba(255, 255, 255, 0.747);
+
+}
+
+.fade_bottom{
+    height: 2.5rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(3, 3, 3, 0.651),
+         black
+    );
+}
